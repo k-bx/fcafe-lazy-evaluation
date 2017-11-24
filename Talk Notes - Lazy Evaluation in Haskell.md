@@ -635,13 +635,13 @@ Kostiantyn Rybnikov http://twitter.com/ko_bx
 
 Papers:
 
-- Peyton-Jones strictness analysis practical approach
-- The Impact of Laziness on Parallelism and the Limits of Strictness Analysis (1995)
-- How Much Non-­strictness do Lenient Programs Require?" (Klaus E. Schauser, Seth C. Goldstein)
-- Optimistic evaluation - an adaptive evaluation strategy for non-strict programs
-- Cheap eagerness - speculative evaluation in a lazy functional language
-- Making a fast curry
-- I Got Plenty o’ Nuttin’  by McBride
+- C. Clack and S. Peyton Jones, "Strictness analysis - a practical approach"
+- S. Marlow, S. Peyton Jones, "Making a Fast Curry: Push/Enter vs. Eval/Apply for Higher-order Languages"
+- R. Ennals, S. Peyton Jones "Optimistic evaluation - an adaptive evaluation strategy for non-strict programs"
+- C. McBride, "I Got Plenty o’ Nuttin’"
+- G. Tremblay, G.R. Gao, "The Impact of Laziness on Parallelism and the Limits of Strictness Analysis" (1995)
+- Klaus E. Schauser, Seth C. Goldstein, "How Much Non-­strictness do Lenient Programs Require?"
+- K-F. Faxén"Cheap eagerness - speculative evaluation in a lazy functional language"
 
 Literature used:
 
