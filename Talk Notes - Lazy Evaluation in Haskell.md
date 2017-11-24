@@ -54,7 +54,7 @@ main = do
 x = _
 ```
 
-![plus-one-two](/Users/kb/workspace/fcafe-lazy-evaluation/plus-one-two.png)
+![plus-one-two](./plus-one-two.png)
 
 ```
 λ x
@@ -74,7 +74,7 @@ x = _
 y = _
 ```
 
-![x-plus-y](/Users/kb/workspace/fcafe-lazy-evaluation/x-plus-y.png)
+![x-plus-y](./x-plus-y.png)
 
 ---
 
@@ -108,7 +108,7 @@ y = _
 z = (_,_)
 ```
 
-![pair](/Users/kb/workspace/fcafe-lazy-evaluation/pair.png)
+![pair](./pair.png)
 
 ---
 
@@ -158,7 +158,7 @@ let zs = Cons 1 (Cons 2 (Cons 3 (Cons 4 (Cons 5 Nil))))
 let myList = [1, 2, 3]
 ```
 
-![myList2](/Users/kb/workspace/fcafe-lazy-evaluation/myList2.png)
+![myList2](./myList2.png)
 
 ---
 
@@ -187,7 +187,7 @@ map f (x:xs) =
   in x' : xs'
 ```
 
-![map](/Users/kb/workspace/fcafe-lazy-evaluation/map.png)
+![map](./map.png)
 
 ---
 
@@ -232,7 +232,7 @@ True  && x = x
 False && x = False
 ```
 
-![true_and_false](/Users/kb/workspace/fcafe-lazy-evaluation/true_and_false.png)
+![true_and_false](./true_and_false.png)
 
 ---
 
@@ -240,9 +240,9 @@ False && x = False
 ('H' == 'i') && ('a' == 'm')
 ```
 
-![and_reduction_1](/Users/kb/workspace/fcafe-lazy-evaluation/and_reduction_1.png)
+![and_reduction_1](./and_reduction_1.png)
 
-![and_reduction_2](/Users/kb/workspace/fcafe-lazy-evaluation/and_reduction_2.png)
+![and_reduction_2](./and_reduction_2.png)
 
 - the second argument is not evaluated
 
@@ -523,43 +523,43 @@ forM_ adIds $ \adId -> do
 
 # ghc-vis
 
-![ghc_vis](/Users/kb/workspace/fcafe-lazy-evaluation/ghc_vis.png)
+![ghc_vis](./ghc_vis.png)
 
 ---
 
 # GHC Profiling
 
-![profiling](/Users/kb/workspace/fcafe-lazy-evaluation/profiling.png)
+![profiling](./profiling.png)
 
 ---
 
 # Making a Fast Curry
 
-![fastcurry_title](/Users/kb/workspace/fcafe-lazy-evaluation/fastcurry_title.png)
+![fastcurry_title](./fastcurry_title.png)
 
 ---
 
-![fastcurry_syntax](/Users/kb/workspace/fcafe-lazy-evaluation/fastcurry_syntax.png)
+![fastcurry_syntax](./fastcurry_syntax.png)
 
 ---
 
-![fastcurry_map](/Users/kb/workspace/fcafe-lazy-evaluation/fastcurry_map.png)
+![fastcurry_map](./fastcurry_map.png)
 
 ---
 
-![pipeline](/Users/kb/workspace/fcafe-lazy-evaluation/pipeline.png)
+![pipeline](./pipeline.png)
 
 ---
 
 
 
-![compilation_pipeline](/Users/kb/workspace/fcafe-lazy-evaluation/compilation_pipeline.png)
+![compilation_pipeline](./compilation_pipeline.png)
 
 ---
 
 # Strictness analysis
 
-![strictness_analysis](/Users/kb/workspace/fcafe-lazy-evaluation/strictness_analysis.png)
+![strictness_analysis](./strictness_analysis.png)
 
 ---
 
@@ -567,35 +567,35 @@ forM_ adIds $ \adId -> do
 
 "rule of signs"
 
-![rule_of_signs](/Users/kb/workspace/fcafe-lazy-evaluation/rule_of_signs.png)
+![rule_of_signs](./rule_of_signs.png)
 
 ---
 
-![rule_of_signs_2](/Users/kb/workspace/fcafe-lazy-evaluation/rule_of_signs_2.png)
+![rule_of_signs_2](./rule_of_signs_2.png)
 
 ---
 
-![rule_of_signs_3](/Users/kb/workspace/fcafe-lazy-evaluation/rule_of_signs_3.png)
+![rule_of_signs_3](./rule_of_signs_3.png)
 
 ---
 
-![termination1](/Users/kb/workspace/fcafe-lazy-evaluation/termination1.png)
+![termination1](./termination1.png)
 
 ---
 
-![termination2](/Users/kb/workspace/fcafe-lazy-evaluation/termination2.png)
+![termination2](./termination2.png)
 
 ---
 
 # Optimistic evaluation
 
-![optimistic_evaluation](/Users/kb/workspace/fcafe-lazy-evaluation/optimistic_evaluation.png)
+![optimistic_evaluation](./optimistic_evaluation.png)
 
 ---
 
 # Linear types (and their dependent lollipop)
 
-![linear_types](/Users/kb/workspace/fcafe-lazy-evaluation/linear_types.png)
+![linear_types](./linear_types.png)
 
 ---
 
@@ -651,4 +651,3 @@ Literature used:
 - https://www.fpcomplete.com/blog/2017/09/all-about-strictness
 - http://blog.ezyang.com/2011/05/anatomy-of-a-thunk-leak/
 - HaskellBook (http://haskellbook.com)
-
