@@ -521,6 +521,18 @@ forM_ adIds $ \adId -> do
 
 ---
 
+# ghc-vis
+
+![ghc_vis](/Users/kb/workspace/fcafe-lazy-evaluation/ghc_vis.png)
+
+---
+
+# GHC Profiling
+
+![profiling](/Users/kb/workspace/fcafe-lazy-evaluation/profiling.png)
+
+---
+
 # Making a Fast Curry
 
 ![fastcurry_title](/Users/kb/workspace/fcafe-lazy-evaluation/fastcurry_title.png)
