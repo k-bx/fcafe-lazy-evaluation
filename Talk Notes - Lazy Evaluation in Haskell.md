@@ -166,7 +166,7 @@ let myList = [1, 2, 3]
 cyclic = 1 : cyclic
 ```
 
-![cyclic](/Users/kb/Desktop/cyclic.png)
+![cyclic](./cyclic.png)
 
 ---
 
